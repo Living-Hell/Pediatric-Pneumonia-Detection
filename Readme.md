@@ -5,3 +5,5 @@
 - This is a model which accurately classifies pediatric chest X-ray images as having pneumonia or not.
 - This model was trained on pediatric chest X-ray images and, through an iterative modeling approach, has achieved an overall accuracy of 92.82%, recall of 93.44%, and precision of 96.14%.
 - This could be an important tool to reduce childhood mortality, especially in impoverished regions with less access to advanced healthcare systems.
+- Data augmentation, rescaling and analysis of the dataset's statistics were performed and class imbalances were removed by assigning weights.
+- MobileNet model was used for prediction and Accuracy, confusion matrix and ROC curve for evaluation.
